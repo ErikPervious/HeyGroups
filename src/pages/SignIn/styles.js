@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   subtitle: {
-    marginBottom: 20,
+    marginBottom: 10,
     color: '#121212'
   },
   input: {
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E1E1E1',
     width: '90%',
     borderRadius: 6,
-    marginBottom: 10,
+    marginTop: 10,
     paddingHorizontal: 8,
     height: 50
   },
@@ -40,7 +40,18 @@ const styles = StyleSheet.create({
   },
   textCreateAccount: {
     color: '#121313'
+  },
+  containerCheckBox: {
+    flexDirection: 'row',
+    width: '90%',
+    marginBottom: 20,
+    alignItems: "center"
+  },
+  checkBoxText: {
+    color: '#12131380',
+    fontWeight: 'bold'
   }
+
 });
 
 export default styles;
